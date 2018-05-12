@@ -249,32 +249,53 @@ h5 {
 }
 
 @media screen and (max-width: 980px) {
-
-}
-
-@media screen and (max-width: 768px) {
-  .insideboxed1right {
-    width: 100px;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
+  .myheader {
+    background-color: #ffffff;
+    height:78px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+  }
+  
+  .insideboxed1left {
+    margin-left: 200px;
+    width: 16%;
+    background-color: #4aaaa5;
+    float: left;
     z-index: 2;
   }
+  
+  #myname {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 28px;
+    z-index: 3;
+  }
+  
+  
   .insideboxed1right {
     width: 25%;
-    padding: 0px 10px 0px 0px;
+    padding: 32px 10px 0px 0px;
     text-align: center;
-    z-index: 2;      
+    z-index: 2;
     margin-right: 200px;
     float: right;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .myheader {
     background-color: #ffffff;
     height:120px;
     width: 100%;
-    top: 0;
+    top: 0px;
     z-index: 1;
     border-bottom: solid;
     border-width: 1px;
@@ -300,16 +321,18 @@ h5 {
   }
   
   .insideboxed1right {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    width: 100%;
-
-  }
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      text-align: left;
+      z-index: 2;
+      margin-right: 0px;
+      float: none;
+    }
   #headercontact {
     line-height: 15px;
     border-left: solid;
-    border-width: 1px;
+    border-width: 0px;
     border-color: #cccccc;
     
   }
@@ -317,14 +340,14 @@ h5 {
   #headerportfolio {
     line-height: 15px;
     border-left: solid;
-    border-width: 1px;
+    border-width: 0px;
     border-color: #cccccc;
   }
   
   #headerabout {
     line-height: 15px;
     border-left: none;
-    border-width: 1px;
+    border-width: 0px;
   }
 
   .boxed3 {
@@ -336,4 +359,125 @@ h5 {
     border-width: 1px;
 
 }
+
+@media screen and (max-width: 640px) {
+  .myheader {
+    background-color: #ffffff;
+    height:120px;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+  }
+  
+  .insideboxed1left {
+    margin: 0px;
+    width: 100%;
+    background-color: #4aaaa5;
+    float: left;
+    z-index: 2;
+  }
+  
+  #myname {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 28px;
+    z-index: 3;
+  }
+  
+  .insideboxed1right {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      text-align: left;
+      z-index: 2;
+      margin-right: 0px;
+      float: none;
+    }
+  #headercontact {
+    line-height: 15px;
+    border-left: solid;
+    border-width: 0px;
+    border-color: #cccccc;
+    
+  }
+  
+  #headerportfolio {
+    line-height: 15px;
+    border-left: solid;
+    border-width: 0px;
+    border-color: #cccccc;
+  }
+  
+  #headerabout {
+    line-height: 15px;
+    border-left: none;
+    border-width: 0px;
+  }
+
+  .boxed3 {
+    background-color: #ffffff;
+    margin: 140px 10px 10px 10px;
+    padding: 20px 20px 10px 20px;
+    border: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+
+.Idontknowwhatthisis {
+  
+}
+
+.groupofphotos {
+  height: 100%;
+  color:black;
+  position: relative;
+  text-align: center;
+}
+
+.castlephoto {
+  float: left;
+}
+
+.castle {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.guitarphoto {
+  padding: 0px 0px 0px 0px;
+
+}
+
+.redwheelphoto {
+  float: left;
+  padding: 20px 0px 0px 0px;
+  left: 0px;
+}
+
+.mixerphoto {
+  float: left;
+  top: 0px;
+}
+
+.pizzaphoto {
+ float: left;
+ padding: 20px 0px 0px 0px;
+}
+
+.boxed4 {
+  background-color: #ffffff;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  height: 600px;
+  border: solid;
+  border-color: #dddddd;
+  border-width: 1px;
+}
+
 }
